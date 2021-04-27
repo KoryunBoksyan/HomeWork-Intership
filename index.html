@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork HTML</title>
+</head>
+<body>
+        <!--Կայքի վերնագիր-->
+        <h1>Enter Site Title</h1>
+
+
+        <!--Կայքի կարգախոս-->
+        <small><u><i>Enter Site Slogon</i></u></small>
+    
+        <br><br>
+    
+        <!--կայքի նկարագիր-->
+    
+        <span><b>Lorem</b>  ipsum, dolor sit amet consectetur adipisicing elit. Alias omnis repellendus iusto delectus ipsam ipsa nulla quasi tempora repudiandae perspiciatis rerum laudantium itaque tempore,<br> nostrum, fugiat magnam!</span>
+        <a href="http://localhost:52330/index.html" >Read More</a>
+    
+        <hr>
+    
+        <!--Առաջին ցուցակ/համարակալված-->
+        <h2><u>Ordered List</u></h2>
+    
+        <ol>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+        </ol>
+    
+    
+        <!--Երկրորդ ցուցակ/չհամարակալված-->
+        <h2><u>Unordered List</u></h2>
+    
+        <ul>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+        </ul>
+    
+        <hr>
+    
+        <!--ինչպես որ գրում ենք HTML-ում, արտացոլվում է նույն կերպ-->
+        <pre>
+            
+            function message() {
+                alert('Hello HTML')
+            }
+    
+            message()
+    
+        </pre>
+    
+    
+        <hr>
+    
+        <!--Դիթէիլըս-->
+        <details>
+            <summary>Details</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, asperiores. Accusamus at ab sed, nostrum non doloremque obcaecati illo commodi voluptas, est numquam voluptatem voluptates voluptatibus, modi recusandae sunt soluta!</p>
+        </details>
+    
+    
+        <!--Առաջին աղյուսակ/ստանդարտ-->
+        <h2>HTML table 1</h2>
+        <table border="1">
+            <tbody>
+                <tr align="center">
+                    <td><b>Product ID</b></td>
+                    <td><b>Product Name</b></td>
+                    <td><b>Product Quality</b></td>
+                    <td><b>Product Quantity</b></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Wheat</td>
+                    <td>Good</td>
+                    <td>200 Bags</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rice</td>
+                    <td>Good</td>
+                    <td>250 Bags</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Sugar</td>
+                    <td>Good</td>
+                    <td>300 Bags</td>
+                </tr>
+            </tbody>
+        </table>
+    
+    
+        <!--Երկրորդ աղյուսակ ոչ ստանդարտ-->
+        <h2>HTML table 2</h2>
+        <table border="1">
+            <tbody>
+                <tr align="center">
+                    <td><b>Heading 1</b></td>
+                    <td><b>Heading 2</b></td>
+                    <td><b>Heading 3</b></td>
+                    <td><b>Heading 4</b></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">
+                        <img src="https://wallpapercave.com/wp/wp5975115.jpg" 
+                            alt="EatSleepCodeRepeat"
+                            width="400px" 
+                            height="200px">
+                    </td>
+                    <td colspan="3">Long row top</td>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td colspan="2">marge 2 colums</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="3">Long wor bottom</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        
+        <!--Անձնական տվյալների բաժին-->
+        <h2>Coding</h2>
+        <hr>
+    
+        <form>
+    
+             <span>Name:     </span><input type="text" placeholder="Name">
+             <br><br>
+    
+             <span>Password: </span><input type="password" placeholder="Password">
+             <br><br>
+    
+             <span>Gender:   </span>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+             <br><br>
+    
+             <span>Email:    </span><input type="email" placeholder="Email">
+             <br><br>
+    
+             <span>Phone no: 
+             <select>
+                 <option value="+374" selected>+374</option>
+                 <option value="978">978</option>
+                 <option value="979">979</option>
+                 <option value="973">973</option>
+                 <option value="972">972</option>
+                 <option value="974">974</option>
+             </select>
+             </span><input type="tel" placeholder="(xxx)">
+             <br><br>
+    
+             <input type="submit" value="Submit">
+    
+        </form>
+</body>
+</html>
